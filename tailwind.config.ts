@@ -18,6 +18,6 @@ const config: Config = {
       xxl: { min: '1921px' }, //데스크탑
     },
   },
-  plugins: [],
+  plugins: [require('daisyui')],
 };
 export default config;
